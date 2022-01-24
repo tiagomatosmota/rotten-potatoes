@@ -28,6 +28,6 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             tmmota/rotten-potatoes:latest
             tmmota/rotten-potatoes:{{ github.run_number }} 
