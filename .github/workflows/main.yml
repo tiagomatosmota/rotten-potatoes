@@ -29,5 +29,5 @@ jobs:
           file: ./src/dockerfile
           push: true
           tags:
-            tmmota/rotten-potatoes:v1
+            tmmota/rotten-potatoes:latest
             tmmota/rotten-potatoes:{{ github.run_number }} 
